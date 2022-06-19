@@ -1,0 +1,18 @@
+:root {
+  --dusted-peri: rgb(102, 108, 163);
+  --deadly-depths: rgb(19, 24, 63);
+  --top-shelf: rgb(131, 134, 154);
+  --flamboyant-flamingo: rgb(247, 71, 128);
+  --taffy-pink: rgb(255, 167, 195);
+  --white: rgb(255, 255, 255);
+  --sunset: linear-gradient(
+    0deg,
+    rgba(240, 42, 166, 1) 0%,
+    rgba(255, 111, 72, 1) 100%
+  );
+  --midnight: linear-gradient(
+    180deg,
+    rgba(72, 81, 255, 1) 0%,
+    rgba(240, 42, 166, 1) 100%
+  );
+}

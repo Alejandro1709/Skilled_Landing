@@ -1,0 +1,39 @@
+.button {
+  border: none;
+  height: 3.5rem;
+  width: 10.4rem;
+  font-family: var(--font-primary);
+  border-radius: 1.75rem;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.button--default {
+  color: white;
+  background-color: var(--deadly-depths);
+}
+
+.button--default:hover {
+  background-color: var(--dusted-peri);
+}
+
+.button--primary {
+  color: white;
+  background: var(--sunset);
+}
+
+.button--primary:hover {
+  opacity: 0.5;
+}
+
+.button--secondary {
+  color: white;
+  background: var(--midnight);
+}
+
+.button--secondary:hover {
+  opacity: 0.5;
+}
